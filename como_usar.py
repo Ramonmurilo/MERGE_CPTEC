@@ -21,5 +21,5 @@ cptec_merge.baixar_dados(discretizacao='hora',data_string='21-07-2021', diretori
 cptec_merge.baixar_dados(discretizacao='diario',hoje=True)
 
 # Baixando dado diario de um dia específico
-# Serão salvos na pasta do script
+# Serão salvos na pasta teste
 cptec_merge.baixar_dados(discretizacao='diario',data_string='21-07-2021', diretorio_saida='teste')
