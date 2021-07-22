@@ -22,6 +22,9 @@ def baixar_dados(discretizacao='diario',data_string=None, hoje=False, diretorio_
   """
 
   data_requerida = pendulum.now('America/Sao_Paulo') if hoje else pendulum.from_format(data_string, 'DD-MM-YYYY')
+  
+  # tratativa de erro para o nome da discretização
+  discretizacao = discretizacao.lower()
   diario = ['diario','diário','diaria','daily','dia']
   horario =['horário','horario','horária','horaria','hora','horas']
 
