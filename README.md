@@ -15,11 +15,6 @@ conda env create -n nome_qualquer -f environment.yaml
 ```
  </p>
 
-
-
-
-
-
 <h3>Crie seu script python</h3>
 <p>
 Exemplos de comandos e usos:
@@ -46,8 +41,6 @@ cptec_merge.baixar_dados(discretizacao='diario',hoje=True)
 cptec_merge.baixar_dados(discretizacao='diario',data_string='21-07-2021', diretorio_saida='teste')
 ```
  </p>
- 
- 
  
 <p>
   
