@@ -42,3 +42,8 @@ cptec_merge.baixar_dados(discretizacao='diario',hoje=True)
 cptec_merge.baixar_dados(discretizacao='diario',data_string='21-07-2021', diretorio_saida='teste')
 ```
  </p>
+ 
+<p>
+  
+  Para mais detalhes de como trabalhar com git+github e python em ambientes conda, leiam esses meus pequenos tutoriais de <a href="https://www.notion.so/133203c9bb9c4458a7902d0f9a421cd2?v=aff39a5241f34562882a0baf59ed8be4">Git e GitHub</a> e o tutorial de <a href="https://www.notion.so/9dc7eceb476b4ef4b890ec50e63a77ae?v=e550da12a07a4154887825a03ff9e899">python</a>
+ </p>
