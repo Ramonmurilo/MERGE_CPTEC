@@ -21,24 +21,24 @@ conda env create -n nome_qualquer -f environment.yaml
 Exemplos de comandos e usos:
 
 ```
-#Importe o módulo com as rotinas (obs.:este exemplo funciona caso o arquivo .py e o módulo estejam no mesmo diretório)
+# Importe o módulo com as rotinas (obs.:este exemplo funciona caso o arquivo .py e o módulo estejam no mesmo diretório)
 import cptec_merge
 
-#Baixando dados horarios do dia atual
-#Serão salvos na mesma pasta do script
-#baixa dados até a hora atual. Se já houver dados prévios, serão sobrescritos
+# Baixando dados horarios do dia atual
+# Serão salvos na mesma pasta do script
+# baixa dados até a hora atual. Se já houver dados prévios, serão sobrescritos
 cptec_merge.baixar_dados(discretizacao='hora',hoje=True)
 
-#Baixando dados horarios de um dia específico
-#Serão salvos na pasta teste
+# Baixando dados horarios de um dia específico
+# Serão salvos na pasta teste
 cptec_merge.baixar_dados(discretizacao='hora',data_string='21-07-2021', diretorio_saida='teste')
 
-#Baixando dado diario do dia atual
-#Serão salvos na mesma pasta do script
+# Baixando dado diario do dia atual
+# Serão salvos na mesma pasta do script
 cptec_merge.baixar_dados(discretizacao='diario',hoje=True)
 
-#Baixando dado diario de um dia específico
-#Serão salvos na pasta teste
+# Baixando dado diario de um dia específico
+# Serão salvos na pasta teste
 cptec_merge.baixar_dados(discretizacao='diario',data_string='21-07-2021', diretorio_saida='teste')
-
+```
  </p>
