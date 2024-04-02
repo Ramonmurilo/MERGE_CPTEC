@@ -5,12 +5,12 @@
 
 Clone este repositório git para a sua máquina com o comando:
   
-```
+```bash
 git clone https://github.com/Ramonmurilo/MERGE_CPTEC.git
 ```
 
 Reproduza o ambiente a partir do arquivo environment.yaml
-```
+```bash
 conda env create -n nome_qualquer -f environment.yaml
 ```
  </p>
@@ -19,7 +19,7 @@ conda env create -n nome_qualquer -f environment.yaml
 <p>
 Exemplos de comandos e usos:
 
-```
+```python
 # Importe o módulo com as rotinas (obs.:este exemplo funciona caso o arquivo .py e o módulo estejam no mesmo diretório)
 import cptec_merge
 
